@@ -2,7 +2,7 @@
 
 import { ChatList } from "@ai-rsc/components/chat-list";
 import { ChatScrollAnchor } from "@ai-rsc/components/chat-scroll-anchor";
-import { UserMessage } from "@ai-rsc/components/llm-crypto/message";
+import { UserMessage } from "@ai-rsc/components/llm-meals/message";
 import { Button } from "@ai-rsc/components/ui/button";
 import type { ChatInputs } from "@ai-rsc/lib/chat-schema";
 import { useEnterSubmit } from "@ai-rsc/lib/use-enter-submit";

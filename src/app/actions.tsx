@@ -1,10 +1,10 @@
 "use server";
 
-import MealDetailsSkeleton from "@ai-rsc/components/llm-crypto/mealDeatils-skeleton";
-import MealDetails from "@ai-rsc/components/llm-crypto/mealDetails";
-import MealListing from "@ai-rsc/components/llm-crypto/mealListing";
-import MealListingSkeleton from "@ai-rsc/components/llm-crypto/mealListing-skeleton";
-import { BotCard, BotMessage } from "@ai-rsc/components/llm-crypto/message";
+import MealDetailsSkeleton from "@ai-rsc/components/llm-meals/mealDeatils-skeleton";
+import MealDetails from "@ai-rsc/components/llm-meals/mealDetails";
+import MealListing from "@ai-rsc/components/llm-meals/mealListing";
+import MealListingSkeleton from "@ai-rsc/components/llm-meals/mealListing-skeleton";
+import { BotCard, BotMessage } from "@ai-rsc/components/llm-meals/message";
 import { env } from "@ai-rsc/env.mjs";
 import { createOpenAI } from "@ai-sdk/openai";
 import type { CoreMessage, ToolInvocation } from "ai";
